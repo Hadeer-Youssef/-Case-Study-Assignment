@@ -55,21 +55,22 @@ The images were preprocessed and resized to ensure consistent input dimensions f
    ```
 
 3. Install the required dependencies:
+   #pip3 freeze -l > requirments_docker.txt to save all depencency libs for your env
    ```bash
    pip3 install -r requirements.txt
    ```
 
-4. Apply Django migrations:
+5. Apply Django migrations:
    ```bash
    python manage.py migrate
    ```
 
-5. Run the development server:
+6. Run the development server:
    ```bash
    python manage.py runserver
    ```
 
-6. Access the application at `http://127.0.0.1:8000/` in your web browser.
+7. Access the application at `http://127.0.0.1:8000/` in your web browser.
 
 ---
 
