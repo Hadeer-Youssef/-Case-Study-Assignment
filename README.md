@@ -37,7 +37,7 @@ The images were preprocessed and resized to ensure consistent input dimensions f
 ## Installation and Setup
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.8 or higher (my version install python 3.10)
 - Virtual environment (recommended)
 
 ### Steps
@@ -75,7 +75,7 @@ The images were preprocessed and resized to ensure consistent input dimensions f
 
 ## Usage
 1. Launch the Django web application.
-2. Upload an image of a handwritten digit.
+2. Upload an image of a printed digit.
 3. View the predicted digit and its probability on the results page.
 
 ---
