@@ -74,6 +74,35 @@ The images were preprocessed and resized to ensure consistent input dimensions f
 
 ---
 
+## Dockerize Django App
+You can run this project using Docker for easier deployment and environment management.
+using Dockerfile and .dockerignore .
+In this project not create database for just simple demo so we haven't to use Dockercompose 
+to manage different environments.
+Dockercompose is better when we manage database
+
+### Steps to Dockerize the App
+
+1. **Build the Docker Image:**
+   ```bash
+   docker build -t ocr-digits-classifier .
+   ```
+
+2. **Run the Docker Container:**
+   ```bash
+   docker run -d -p 8000:8000 ocr-digits-classifier
+   ```
+
+3. **Access the Application:**
+   Open your browser and navigate to `http://127.0.0.1:8000`.
+
+### Dockerfile Overview
+The `Dockerfile` is configured to:
+- Use a slim Python base image for smaller size.
+- Install all dependencies from `requirements_docker.txt`.
+- Expose port 8000 for the Django app.
+- Run the app using Gunicorn for production readiness.
+---
 ## Usage
 1. Launch the Django web application.
 2. Upload an image of a printed digit.
