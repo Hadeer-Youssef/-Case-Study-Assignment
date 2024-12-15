@@ -126,6 +126,4 @@ The CNN consists of the following layers:
 
 ---
 
-## Acknowledgments
-Special thanks to the open-source community for providing tools and resources to build this project.
 
