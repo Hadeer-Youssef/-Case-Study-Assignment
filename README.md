@@ -37,7 +37,7 @@ The images were preprocessed and resized to ensure consistent input dimensions f
 ## Installation and Setup
 
 ### Prerequisites
-- Python 3.8 or higher (my version install python 3.10)
+- Python 3.8 or higher (my version install Python 3.10.2)
 - Virtual environment (recommended)
 
 ### Steps
