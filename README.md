@@ -1,7 +1,8 @@
 # OCR Digits Classification Project
 
 ## Overview
-This project is a Handwritten Digit Recognition system built using a Convolutional Neural Network (CNN). It is designed to classify digits (0-9) from digital images, making it ideal for Optical Character Recognition (OCR) tasks. The project includes model training, testing, and deployment using a Django web application, offering real-time predictions through an interactive user interface.
+This project is a Handwritten Digit Recognition system built using a Convolutional Neural Network (CNN). It is designed to classify digits (0-9) from digital images, making it ideal for Optical Character Recognition (OCR) tasks. The project includes model training, testing, and deployment using a Django web application, offering real-time predictions through an interactive user interface. and result that I achieved  ![image](https://github.com/user-attachments/assets/2a3e32be-a7c8-4d99-ad41-0f569425f5f4)
+
 
 You can deploy app on server using  digitalocean follow this link https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu
 
